@@ -1,9 +1,11 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "spec-video",
-  "description": "Turn a written spec or ADR into a Remotion product-walkthrough film. Complementary routing to video-editing, fal.ai, and FFmpeg.",
   "version": "1.1.0",
+  "description": "Turn a written spec or ADR into a Remotion product-walkthrough film",
   "author": {
-    "name": "divo12"
+    "name": "divo12",
+    "url": "https://github.com/divo12"
   },
   "homepage": "https://github.com/divo12/spec-video",
   "repository": "https://github.com/divo12/spec-video",
@@ -15,7 +17,5 @@
     "spec",
     "architecture",
     "demo"
-  ],
-  "skills": "./skills",
-  "commands": "./commands"
+  ]
 }

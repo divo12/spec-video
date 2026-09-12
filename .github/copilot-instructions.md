@@ -1,0 +1,1 @@
+When the user wants a video of a spec, ADR, Remotion walkthrough, or spec-video, load `skills/spec-video/SKILL.md` and follow it. Film the Monday-morning path a person walks. Do not animate boxes and arrows.

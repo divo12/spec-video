@@ -1,6 +1,5 @@
 {
   "name": "spec-video",
-  "description": "Spec-to-film plugins for coding agents — Remotion walkthroughs of written specs and ADRs",
   "owner": {
     "name": "divo12"
   },
@@ -11,11 +10,23 @@
   "plugins": [
     {
       "name": "spec-video",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
       "description": "Turn a written spec or ADR into a Remotion product-walkthrough film",
-      "version": "1.1.0",
-      "source": "./",
-      "author": {
-        "name": "divo12"
+      "tags": [
+        "remotion",
+        "video",
+        "spec",
+        "skills"
+      ],
+      "interface": {
+        "displayName": "spec-video"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       }
     }
   ]

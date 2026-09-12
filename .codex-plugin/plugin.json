@@ -1,0 +1,33 @@
+{
+  "name": "spec-video",
+  "version": "1.1.0",
+  "description": "Turn a written spec or ADR into a Remotion product-walkthrough film. Complementary routing to video-editing, fal.ai, and FFmpeg.",
+  "author": {
+    "name": "divo12"
+  },
+  "homepage": "https://github.com/divo12/spec-video",
+  "repository": "https://github.com/divo12/spec-video",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "remotion",
+    "video",
+    "spec",
+    "architecture",
+    "demo"
+  ],
+  "skills": "./skills",
+  "interface": {
+    "displayName": "spec-video",
+    "shortDescription": "Turn a written spec into a Remotion product-walkthrough film.",
+    "longDescription": "Reads a spec or ADR, extracts a Monday-morning product path (room, ask, computers, artifact), scaffolds a nested Remotion project by hand, still-checks key frames, and renders 1920×1080. Routes to video-editing/FFmpeg for real footage and fal.ai only for missing assets. Does not generate architecture-diagram movies or whole-film AI video.",
+    "category": "developer-tools",
+    "capabilities": [
+      "Monday-morning path storyboard from a spec or ADR",
+      "Hand-scaffolded nested Remotion project (no create-video inside git)",
+      "Still-frame QA then 1920×1080 render",
+      "Routing to FFmpeg and fal.ai for footage and holes only"
+    ],
+    "defaultPrompt": "Make a spec-video of this spec. Load skills/spec-video/SKILL.md and follow it."
+  }
+}
