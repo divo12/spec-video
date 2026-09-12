@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1 — 2026-09-13
+
+Detailed README: install per agent, Film Read and dials, storyboard, scaffold/still/render, traps, complementary routing, worked examples, pre-flight, FAQ.
+
 ## 1.1.0 — 2026-09-13
 
 Native plugin wrappers around the same `skills/spec-video/` tree:
