@@ -1,0 +1,20 @@
+{
+  "name": "spec-video",
+  "description": "Turn a written spec or ADR into a Remotion product-walkthrough film. Complementary routing to video-editing, fal.ai, and FFmpeg.",
+  "version": "1.0.0",
+  "author": {
+    "name": "divo12",
+    "email": ""
+  },
+  "homepage": "https://github.com/divo12/spec-video",
+  "repository": "https://github.com/divo12/spec-video",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "remotion",
+    "video",
+    "spec",
+    "architecture",
+    "demo"
+  ]
+}
